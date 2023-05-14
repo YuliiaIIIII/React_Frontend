@@ -1,6 +1,6 @@
 export function WorkExp() {
     return (
-        <div class="work-exp wml55">
+        <div class="work-exp">
       <h2 class="title fw600"><span class="letter" id="letterW">W</span>ork experience</h2>
       <div class="allExperience marg2849">
         <div class="lastJob mb20 mobile">
@@ -11,7 +11,7 @@ export function WorkExp() {
           Monitored the quality of services provided by other trainers. Interaction with the FBBU on issues of organization, preparation and holding of the "Kyiv Cup of Bodybuilding and Fitness" competitions and regional competitions and tournaments</p>
         </div>
   
-        <div class="prevJob mobile">
+        <div class="prevJob">
           <p><span class="bold-text fw600">Name of employer:</span> <a href="https://west-east.com.ua/">West-East Group</a></p>
           <p><span class="bold-text fw600">Dates of employment:</span> 2017 - 2019</p>
           <p><span class="bold-text fw600">Job title:</span> Head assistant.</p>

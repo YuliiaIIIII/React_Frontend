@@ -1,7 +1,10 @@
 export function ContactBlock() {
     return (
       <div id="contacts">
-      <div><h3 class="">Contact</h3></div>
+        <div class="profile-name fw600">
+          Yuliia <span class="surname fw600">Malykhina</span>  
+        </div>
+      <div><h3 class="">Contacts</h3></div>
       <div class="allContacts">
         <div class="contactInfo">
           <h4>Address</h4> 
