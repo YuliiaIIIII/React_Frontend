@@ -20,7 +20,6 @@ export function WorkExp() {
         </div>
       </div>
     </div>
-  
     );
   }
   
