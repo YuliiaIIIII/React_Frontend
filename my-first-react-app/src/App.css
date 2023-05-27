@@ -25,6 +25,7 @@
   --color-text-title: #1E1E1E;
   --color-text-additional: #263036;
   --color-background: white;
+  --color-bg-additional: rgb(230, 230, 255);
   --color-background-sidebar: #86A3B4;
   --color-link: #1a31a3;
   --color-visited: #4c036e;
@@ -38,7 +39,8 @@
 
 #general{
   margin: 0 auto;
-  width: 1200px;
+  width: 80%;
+  background-color: var(--color-bg-additional);
 }
 .mt58{
   margin-top: var(--margin-size-top-big);
@@ -66,31 +68,65 @@ p{
 img{
   display: block;
   max-width: 300px;
+  padding-left: 30px;
 }
 .profile-name{
   margin-top: var(--margin-size-bottom-small);
-  color: var(--color-profile-firstname);
+  color: var(--color-text-additional);
   font-size: var(--font-size-infoTitle);
 }
 .surname{
-  color: var(--color-profile-secondname);
+  color: var(--color-text-additional);
   font-size: var(--font-size-infoTitle);
 }
 #selfie{
   width: 25%;
 }
 #contacts{
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-around;
   width: 75%;
-  padding-left: 50px;
-  background-color: var(--color-background-sidebar);
-  border: 1px solid var(--color-borders);
+  background-color: var(--color-bg-additional);
+}
+.counter{
+  width: 40%;
+  margin-top: 15px;
+  color: var(--color-text-additional);
+  font-size: var(--font-size-infoTitle);
+  text-align: center;
+}
+.card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.send{
+  padding: 5px 10px;
+  background-color:rgb(160, 171, 255);
+  color: var(--color-background);
+  border-radius: 6px;
+  outline: 2px solid var(--color-visited);
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sended{
+  font-size: var(--font-size-lang);
+}
+.work-exp{
+  padding: 30px;
 }
 .title{
   margin: var(--margin-size-top-small);
+  margin-top: 0;
   margin-left: 0;
   color: var(--color-text-title);
   font-size: var(--font-size-title);
-  width: 659px;
   border-bottom: 5px solid var(--color-border-black);
   padding-bottom: var(--padding-bottom-middle);
 }
