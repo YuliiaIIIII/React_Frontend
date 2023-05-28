@@ -11,7 +11,7 @@ export function Counter() {
           type="button" 
           className="send"
           onClick={() => setCount((count) => count + 1)}>
-            Збільшити на 1
+            Increase by 1
           </button>
         </div>
         <div>
@@ -19,12 +19,12 @@ export function Counter() {
           type="button" 
           className="send"
           onClick={() => setCount((count) => count - 1)}>
-            Зменшити на 1
+            Reduce by 1
           </button>
         </div>
       </div>
-      <p class="sended"> 
-        CV Sended {count} times
+      <p className="sended"> 
+        CV was sended {count} times
       </p>
       
     </div>

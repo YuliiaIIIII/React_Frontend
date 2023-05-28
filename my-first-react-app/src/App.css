@@ -66,6 +66,7 @@ p{
   justify-content: center;
 }
 img{
+  margin-top: 15px;
   display: block;
   max-width: 300px;
   padding-left: 30px;
@@ -109,7 +110,7 @@ img{
   background-color:rgb(160, 171, 255);
   color: var(--color-background);
   border-radius: 6px;
-  outline: 2px solid var(--color-visited);
+  outline: 1px solid var(--color-visited);
   border: none;
   font-size: medium;
   font-weight: 600;
