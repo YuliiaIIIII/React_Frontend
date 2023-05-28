@@ -9,7 +9,7 @@ export function Counter() {
         <div>
           <button 
           type="button" 
-          className="send"
+          className="send newExp"
           onClick={() => setCount((count) => count + 1)}>
             Increase by 1
           </button>
@@ -17,7 +17,7 @@ export function Counter() {
         <div>
           <button 
           type="button" 
-          className="send"
+          className="send newExp"
           onClick={() => setCount((count) => count - 1)}>
             Reduce by 1
           </button>

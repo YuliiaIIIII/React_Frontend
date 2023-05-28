@@ -57,6 +57,13 @@
 .mb20{
   margin-bottom: var(--margin-size-bottom-small);
 }
+.mb10{
+  margin-bottom: 10px;
+}
+.labelBlock{
+  display:flex;
+  flex-direction: column;
+}
 p{
   font-size: var(--font-size-paragraph);
   color: var(--color-text-general);
@@ -106,14 +113,6 @@ img{
   justify-content: space-between;
 }
 .send{
-  padding: 5px 10px;
-  background-color:rgb(160, 171, 255);
-  color: var(--color-background);
-  border-radius: 6px;
-  outline: 1px solid var(--color-visited);
-  border: none;
-  font-size: medium;
-  font-weight: 600;
   cursor: pointer;
 }
 .sended{
@@ -121,6 +120,23 @@ img{
 }
 .work-exp{
   padding: 30px;
+}
+.newExp{
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background-color:rgb(160, 171, 255);
+  color: var(--color-background);
+  border-radius: 6px;
+  outline: 1px solid var(--color-visited);
+  border: none;
+  font-size: medium;
+  font-weight: 600;
+}
+.addButton{
+  margin-top: 20px;
+}
+.addButton:hover{
+  background-color:rgb(112, 123, 207);
 }
 .title{
   margin: var(--margin-size-top-small);
@@ -164,4 +180,10 @@ a:hover{
 .bold-text{
   font-size: var(--font-size-paragraph);
   line-height: 17px;
+}
+.formStyle{
+  max-width: 35%;
+}
+.preLine{
+  margin-top: 4px;
 }

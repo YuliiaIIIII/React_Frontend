@@ -1,6 +1,6 @@
 import {useState} from "react";
 import WorkExp from "./WorkExp";
-
+import WorkExpAddForm from "./WorkExpAddForm";
 const listOfExperience = [
   {
     title: "Personal trainer. Senior coach.",
@@ -25,14 +25,17 @@ function WorkExpInfo() {
       </h2>
       {listOfExperience.map((item) => (
           <WorkExp 
+            key={Math.random()}
             title={item.title} 
             description={item.description} 
             name={item.name} 
             link={item.link}
           />
+          
           )
         )
       }
+      <WorkExpAddForm />
     </div>
   );
 }
