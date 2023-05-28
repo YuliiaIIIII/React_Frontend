@@ -1,9 +1,7 @@
-export function Image(props) {
-    return (
-        <div id = "selfie">
-            <img src={props.userImage} alt={props.imageAlt} />
-        </div>
-    );
-  }
-  
-  export default Image;
+export function Image({userImage, imageAlt}) {
+  return (
+    <div id="selfie">
+        <img src={userImage} alt={imageAlt} />
+    </div>
+  );
+}
