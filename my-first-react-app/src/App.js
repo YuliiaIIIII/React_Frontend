@@ -12,13 +12,8 @@ function App() {
         <Image userImage = {userPhoto} imageAlt = "User selfie" />
         <ContactBlock />
       </div>
-      <div>
         <WorkExpInfo />
-      </div>
-      <div>
-        <ReposBlock />
-      </div>
-        
+        <ReposBlock />   
     </div>
   );
 }
