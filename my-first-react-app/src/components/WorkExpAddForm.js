@@ -39,6 +39,7 @@ function WorkExpAddForm(){
             <input 
               type="text" 
               id="title"
+              name="title"
               className="preLine"
               placeholder="Type your job title"
               value={inputData.title} 
@@ -55,6 +56,7 @@ function WorkExpAddForm(){
             <input 
               type="text"
               id="name"
+              name="name"
               className="preLine"
               placeholder="Type a name of employer"
               value={inputData.name} 
@@ -71,6 +73,7 @@ function WorkExpAddForm(){
             <input 
               type="text"
               id="description"
+              name="description"
               className="preLine"
               placeholder="Type a job description"
               value={inputData.description} 
@@ -87,6 +90,7 @@ function WorkExpAddForm(){
             <input 
               type="text"
               id="link"
+              name="link"
               className="preLine"
               placeholder="Type a link to a web-site"
               value={inputData.link} 

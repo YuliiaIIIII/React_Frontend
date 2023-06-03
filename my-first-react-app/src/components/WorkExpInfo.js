@@ -1,6 +1,7 @@
 import {useState} from "react";
 import WorkExp from "./WorkExp";
 import WorkExpAddForm from "./WorkExpAddForm";
+
 const listOfExperience = [
   {
     title: "Personal trainer. Senior coach.",
@@ -17,7 +18,9 @@ const listOfExperience = [
 ]
 
 function WorkExpInfo() {
-
+  const addNewExperience = (newWorkExperience) => {
+    setInputData((prevExperience) => [...prevExperience, newWorkExperience]);
+  };
   return (
     <div className="work-exp">
       <h2 className="title fw600">
