@@ -20,7 +20,8 @@ function ContactBlock() {
             repositories.map(item => (
               <li className="mb10" key={item.id}>
                 <a href={item.html_url}
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                 {item.name}</a>
                 {item.description ? <p className="smallDesc">{item.description}</p> : null}
               </li>
